@@ -1,4 +1,4 @@
-# Personal n8n QA Agent
+# N8N Workflow Testing Audit Agent
 
 Version 1 is a personal Telegram-controlled QA agent for one self-hosted n8n workflow.
 
