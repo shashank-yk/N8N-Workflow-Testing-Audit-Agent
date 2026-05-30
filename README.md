@@ -39,6 +39,12 @@ Version 1 is a personal Telegram-controlled QA agent for one self-hosted n8n wor
 - `report latest`
 - `report <run_id>`
 
+## Documentation
+
+- [Project architecture](project-architecture.md)
+- [Sample Telegram output](sample-telegram-output.md)
+- [Future improvements](future-improvements.md)
+
 ## Notes
 
 - `browser-use` is included for future exploratory browsing; v1 browser work is implemented with Playwright for repeatability.
