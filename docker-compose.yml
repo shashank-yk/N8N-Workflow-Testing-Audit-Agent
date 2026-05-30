@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:17
+    container_name: qa_agent_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: qa_agent
+      POSTGRES_USER: qa_agent
+      POSTGRES_PASSWORD: qa_agent
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
